@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دره مدارج الكيف</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="nav-continer">
+        <nav>
+            <div class="logo">
+                <img src="imgs/logo.png" alt="Logo">
+            </div>
+            <div class="nav-menu-btn">
+             <a href="#menu">المنيو</a>
+            </div>
+        </nav>
+    </div>
+
+    <section class="hero" id="hero">
+        <div class="hero-stuff">
+        <video src="imgs/videoplayback (2).mp4" autoplay muted loop></video>
+        <div class="hero-content">
+        <div class="hero-text">
+        <h1>دره مدارج الكيف</h1>
+        <p>أسعارنا قليلة… وقيمتنا أصيلة </p>
+        </div>
+        <div class="hero-arrow">
+        <i class="fa-solid fa-arrow-down"></i>
+        </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="menu-stuff">
+            <div class="menu-header">
+                <h1>المنيو</h1>
+                <p>اكتشف تشكيلتنا الواسعة من البهارات المميزة</p>
+
+                
+                <div class="search-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="ابحث عن طبق معين...">
+                </div>
+                
+                <div class="menu-controls">
+                    <button id="expandAll" class="control-btn">عرض الكل</button>
+                    <button id="collapseAll" class="control-btn">إخفاء الكل</button>
+                </div>
+            </div>
+
+            <div class="menu-grid">
+                <!-- قسم القهوه -->
+                <div class="menu-category" data-category="القهوه">
+                    <img src="imgs/بن.webp" alt="القهوه" class="category-image">
+                    <div class="category-header">
+                        <h2 class="category-title">قسم القهوه</h2>
+                        <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><span class="item-name">قهوة الشيوخ</span></div>
+                        <div class="menu-item"><span class="item-name">القهوة الجنوبية</span></div>
+                        <div class="menu-item"><span class="item-name">القهوة الشمالية</span></div>
+                        <div class="menu-item"><span class="item-name">القهوة القصيمية</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة سعودية بالهيل</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة صفراء</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة سمراء</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة محموسة وسط</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة محموسة غامق</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة محموسة فاتح</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة مع الهيل</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة مع الزعفران</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة مع القرنفل</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة مع الزنجبيل</span></div>
+                        <div class="menu-item"><span class="item-name">قهوة محموسة مع خلطات جاهزة</span></div>
+                        <div class="menu-item"><span class="item-name">بن عربي مطحون جاهز</span></div>
+                        <div class="menu-item"><span class="item-name">خلطات قهوة عربية جاهزة (شيوخ – ملكية – فاخرة)</span></div>
+                    </div>
+                </div>
+
+                <!-- قسم البهارات -->
+                <div class="menu-category" data-category="بهارات">
+                    <img src="imgs/بهارات.jpg" alt="بهارات" class="category-image">
+                    <div class="category-header">
+                        <h2 class="category-title">قسم البهارات</h2>
+                        <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><span class="item-name">بهارات كبسة</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات رز بخاري</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات برياني</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات مسالا</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات دجاج</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات لحم</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات سمك</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات مشاوي</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات مندي</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات مدخّن</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات كاري</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات فاهيتا</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات شاورما لحم</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات شاورما دجاج</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات قرصان</span></div>
+                        <div class="menu-item"><span class="item-name">بهارات مرق</span></div>
+                        <div class="menu-item"><span class="item-name">كمون</span></div>
+                        <div class="menu-item"><span class="item-name">كركم</span></div>
+                        <div class="menu-item"><span class="item-name">فلفل أسود</span></div>
+                        <div class="menu-item"><span class="item-name">فلفل أبيض</span></div>
+                        <div class="menu-item"><span class="item-name">قرفة</span></div>
+                        <div class="menu-item"><span class="item-name">زنجبيل</span></div>
+                        <div class="menu-item"><span class="item-name">سماق</span></div>
+                        <div class="menu-item"><span class="item-name">زعتر بري</span></div>
+                        <div class="menu-item"><span class="item-name">زعتر أخضر</span></div>
+                        <div class="menu-item"><span class="item-name">زعتر بالسمّاق</span></div>
+                        <div class="menu-item"><span class="item-name">نعناع مجفف</span></div>
+                        <div class="menu-item"><span class="item-name">ليمون أسود مطحون</span></div>
+                        <div class="menu-item"><span class="item-name">حبة سوداء</span></div>
+                        <div class="menu-item"><span class="item-name">شمر</span></div>
+                        <div class="menu-item"><span class="item-name">يانسون</span></div>
+                        <div class="menu-item"><span class="item-name">قرنفل</span></div>
+                        <div class="menu-item"><span class="item-name">حبهان (هيل)</span></div>
+                        <div class="menu-item"><span class="item-name">ورق غار</span></div>
+                        <div class="menu-item"><span class="item-name">بذور كزبرة</span></div>
+                        <div class="menu-item"><span class="item-name">بذور شبت</span></div>
+                        <div class="menu-item"><span class="item-name">فلفل أحمر مطحون</span></div>
+                        <div class="menu-item"><span class="item-name">بابريكا</span></div>
+                        <div class="menu-item"><span class="item-name">شطة حمراء</span></div>
+                        <div class="menu-item"><span class="item-name">جوزة الطيب</span></div>
+                        <div class="menu-item"><span class="item-name">قشر بصل مجفف</span></div>
+                        <div class="menu-item"><span class="item-name">قشر ثوم مجفف</span></div>
+                    </div>
+                </div>
+
+                <!-- قسم مكسرات -->
+                <div class="menu-category" data-category="مكسرات">
+                    <img src="imgs/مكسرات.jpg" alt="مكسرات" class="category-image">
+                    <div class="category-header">
+                        <h2 class="category-title">قسم مكسرات</h2>
+                        <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><span class="item-name">لوز محمص / ني</span></div>
+                        <div class="menu-item"><span class="item-name">كاجو محمص / ني</span></div>
+                        <div class="menu-item"><span class="item-name">فستق حلبي</span></div>
+                        <div class="menu-item"><span class="item-name">جوز (عين الجمل)</span></div>
+                        <div class="menu-item"><span class="item-name">بندق</span></div>
+                        <div class="menu-item"><span class="item-name">فول سوداني</span></div>
+                        <div class="menu-item"><span class="item-name">حمص محمص</span></div>
+                        <div class="menu-item"><span class="item-name">بذور دوار الشمس (حبّ)</span></div>
+                        <div class="menu-item"><span class="item-name">بذور القرع (لبّ القرع)</span></div>
+                        <div class="menu-item"><span class="item-name">صنوبر</span></div>
+                        <div class="menu-item"><span class="item-name">مكسّرات مشكلة عربية</span></div>
+                        <div class="menu-item"><span class="item-name">لوز مجروش للطبخ</span></div>
+                        <div class="menu-item"><span class="item-name">جوز هند مبشور</span></div>
+                    </div>
+                </div>
+
+                <!-- قسم العطاره -->
+                <div class="menu-category" data-category="عطاره">
+                    <img src="imgs/عطاره.jpg" alt="عطاره" class="category-image">
+                    <div class="category-header">
+                        <h2 class="category-title">قسم العطاره</h2>
+                        <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><span class="item-name">ورد مجفف</span></div>
+                        <div class="menu-item"><span class="item-name">ليمون أسود</span></div>
+                        <div class="menu-item"><span class="item-name">قشر رمان</span></div>
+                        <div class="menu-item"><span class="item-name">نعناع مجفف</span></div>
+                        <div class="menu-item"><span class="item-name">بابونج</span></div>
+                        <div class="menu-item"><span class="item-name">كركديه</span></div>
+                        <div class="menu-item"><span class="item-name">شاي أخضر</span></div>
+                        <div class="menu-item"><span class="item-name">ميرمية</span></div>
+                        <div class="menu-item"><span class="item-name">زعتر</span></div>
+                        <div class="menu-item"><span class="item-name">شمر</span></div>
+                        <div class="menu-item"><span class="item-name">يانسون</span></div>
+                    </div>
+                </div>
+
+                <!-- قسم التمور -->
+                <div class="menu-category" data-category="تمور">
+                    <img src="imgs/تمور.jpg" alt="تمور" class="category-image">
+                    <div class="category-header">
+                        <h2 class="category-title">قسم التمور</h2>
+                        <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><span class="item-name">تمر خلاص</span></div>
+                        <div class="menu-item"><span class="item-name">تمر سكري</span></div>
+                        <div class="menu-item"><span class="item-name">تمر مجدول</span></div>
+                        <div class="menu-item"><span class="item-name">تمر صفري</span></div>
+                        <div class="menu-item"><span class="item-name">تمر عجوة</span></div>
+                        <div class="menu-item"><span class="item-name">تمر صقعي</span></div>
+                        <div class="menu-item"><span class="item-name">تمر برني</span></div>
+                        <div class="menu-item"><span class="item-name">تمر ربيعة</span></div>
+                    </div>
+                </div>
+
+                <!-- قسم العسل -->
+                <div class="menu-category" data-category="عسل">
+                    <img src="imgs/عسل.jpg" alt="عسل" class="category-image">
+                    <div class="category-header">
+                        <h2 class="category-title">قسم العسل</h2>
+                        <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><span class="item-name">عسل سدر</span></div>
+                        <div class="menu-item"><span class="item-name">عسل سمرة</span></div>
+                        <div class="menu-item"><span class="item-name">عسل طلح</span></div>
+                        <div class="menu-item"><span class="item-name">عسل يمني</span></div>
+                        <div class="menu-note">جميع أنواع عسل الجنوب متوفره</div>
+                    </div>
+                </div>
+
+                <!-- الزيوت -->
+                <div class="menu-category" data-category="زيوت">
+                    <img src="imgs/زيوت.webp" alt="زيوت" class="category-image">
+                    <div class="category-header">
+                        <h2 class="category-title">قسم الزيوت</h2>
+                        <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><span class="item-name">زيت زيتون</span></div>
+                        <div class="menu-item"><span class="item-name">زيت سمسم</span></div>
+                        <div class="menu-item"><span class="item-name">زيت حبة البركة</span></div>
+                        <div class="menu-item"><span class="item-name">زيت جوز الهند</span></div>
+                        <div class="menu-item"><span class="item-name">زيت اللوز</span></div>
+                        <div class="menu-item"><span class="item-name">زيت الخروع</span></div>
+                        <div class="menu-item"><span class="item-name">زيت الأركان</span></div>
+                    </div>
+                </div>
+
+                <!-- قسم حبوب بلدي -->
+                <div class="menu-category" data-category="حبوب بلدي">
+                    <img src="imgs/حبوب بلدي.jpg" alt="حبوب بلدي" class="category-image">
+                    <div class="category-header">
+                        <h2 class="category-title">قسم حبوب بلدي</h2>
+                        <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><span class="item-name">بر بلدي</span></div>
+                        <div class="menu-item"><span class="item-name">بر نجراني</span></div>
+                        <div class="menu-item"><span class="item-name">شعير</span></div>
+                        <div class="menu-item"><span class="item-name">ذرة</span></div>
+                        <div class="menu-item"><span class="item-name">دخن</span></div>
+                        <div class="menu-item"><span class="item-name">عدس</span></div>
+                        <div class="menu-item"><span class="item-name">لوبيا</span></div>
+                        <div class="menu-item"><span class="item-name">فاصوليا بيضاء</span></div>
+                    </div>
+                </div>
+
+                <!-- قسم هيل -->
+                <div class="menu-category" data-category="هيل">
+                    <img src="imgs/هيل.jpg" alt="هيل" class="category-image">
+                    <div class="category-header">
+                        <h2 class="category-title">قسم هيل</h2>
+                        <button class="toggle-btn"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><span class="item-name">هيل أخضر فاخر</span></div>
+                        <div class="menu-item"><span class="item-name">هيل هندي</span></div>
+                        <div class="menu-item"><span class="item-name">هيل امريكي</span></div>
+                        <div class="menu-item"><span class="item-name">هيل مدخّن</span></div>
+                        <div class="menu-item"><span class="item-name">هيل مطحون</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>اتصل بنا</h3>
+                            <p>[050 952 5976] [053 379 4157]</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>موقعنا</h3>
+                            <p>الوادين ,  احد رفيده</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>ساعات العمل</h3>
+                            <p>يومياً من 6 صباحاً - 12 الليل</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>واتساب</h3>
+                            <p>[050 952 5976] [053 379 4157]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3111.0611356358427!2d42.803254375181325!3d18.093222882919363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDA1JzM1LjYiTiA0MsKwNDgnMjEuMCJF!5e1!3m2!1sen!2ssa!4v1764288883679!5m2!1sen!2ssa"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0; border-radius: 15px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2025 درة مدارج الكيف</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
